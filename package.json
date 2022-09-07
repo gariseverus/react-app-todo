@@ -1,0 +1,31 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "main": "App.js",
+  "repository": {
+    "type": "git"
+    
+  },
+  "author": "Gari Severus",
+  "scripts": {
+    "start": "npm run build && npm run dev-server",
+    "build": "webpack",
+    "dev-server": "http-server -p 3000 public/"
+  },
+  "dependencies": {
+    "axios": "^0.4.2",
+    "events": "^1.0.2",
+    "flux": "^2.0.1",
+    "react": "^0.12.1"
+  },
+  "devDependencies": {
+    "jsx-loader": "^0.12.2",
+    "webpack": "^1.5.3",
+    "http-server": "^0.8.0"
+  },
+  "bugs": {
+    
+  },
+  
+  "license": "ISC"
+}
